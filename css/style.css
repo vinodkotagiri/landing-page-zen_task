@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --background-dark:#1B1C1D;
+}
+hrml{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;   
+}
+/* NAVBAR */
+.navbar{
+    background-color:var(--background-dark)!important;
+}
+.navbar-nav {
+    margin-left: 12.5%;
+}
+/* NAVBAR END */
+
+/* HOME */
+#home{
+    background-color:var(--background-dark);
+    color:#fff;
+    height:75vh;
+    display:flex;
+    justify-content: center;     
+    align-items: center;
+    margin-bottom: 5%;
+}
+.title-text>p{
+    margin-left:10%;
+}
+/* HOME END */
+
+/* ABOUT */
+#about{
+    margin-left:5%;
+    margin-top:5%;
+    height:70vh;
+}
+.nazrul-img{
+    margin-top:5%;
+    margin-left:5%;
+    width:70%;
+    height:60%;
+}
+.btn {
+    width: 180px;
+    font-weight: bold;
+    color: #ffff;
+    margin: 2px;
+    
+}
+.btns-div{
+    margin-left:150px;
+ 
+}
+.quote{
+    justify-content: center;
+    align-items: center;
+    padding:3%;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color:var(--background-dark);
+    color:#fff;
+}
+/* ABOUT END */
+
+/* ACHIEVEMENTS */
+#ach{
+    margin-top:50px;
+}
+.award-container{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 2px; 
+    margin-bottom:80px;  
+}
+.award{
+    border: 1px solid lightgray;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    height:130px;
+}
+.award>h6{
+    padding-left: 5px;
+    padding-top: 8px;
+}
+.award>p{
+    color:gray;
+    text-align: left;
+    padding: 2px;
+}
+.award-div{
+    margin-bottom:20px;
+}
+.separator{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid lightgray;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+/* ACHIEVEMENTS END */
+#footer{
+    background-color:var(--background-dark);
+    color:#fff;
+    display:flex;
+    justify-content: center;     
+    align-items: center;
+    padding:2%;
+    text-decoration: none;
+    font-size:.75em;
+}
+.techs{
+    border-left:1px solid gray;
+    border-right:1px solid gray;
+}
+.content{
+    padding:20  px;
+}
+/* FOOTER END */
