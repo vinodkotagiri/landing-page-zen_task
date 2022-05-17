@@ -2,7 +2,7 @@
 :root{
     --background-dark:#1B1C1D;
 }
-hrml{
+html{
     scroll-behavior: smooth;
 }
 body{
